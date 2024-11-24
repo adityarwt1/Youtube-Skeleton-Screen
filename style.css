@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+body{
+  background-color:black;
+}
+header {
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.leftofheadr {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  width: 10%;
+}
+
+.leftofheadr li {
+  list-style: none;
+}
+
+#ytlogo {
+  margin-left: 10px;
+}
+
+#ytname {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Roboto, Arial, sans-serif;
+}
+#search {
+  padding: 0px 4px 0px 16px;
+  font-weight: 400;
+  width: 500px;
+  height: 38px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  background-color: #121212;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+#searcharea {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  width: 30%;
+}
+#searcharea li {
+  list-style: none;
+}
+#searchicon {
+  padding: 1px;
+  background-color: #606060;
+  width: -10px;
+  align-content: center;
+  align-items: center;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+#micion {
+  width: 25px;
+  padding: 5px;
+  background-color: #606060;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+#noti {
+  background-color: white;
+  border-radius: 50%;
+  padding: 2px;
+  list-style: none;
+}
+#rightofheadr li {
+  list-style: none;
+}
+.profile {
+  background-color: white;
+  border-radius: 50%;
+  padding: 2px;
+  list-style: none;
+  margin-left: 10px;
+}
+#rightofheadr {
+  display: flex;
+}
+#card{
+  width: 270px;
+  height: auto;
+  margin-left: 50px;
+  color: #000;
+}
+#video{
+  background-color: #717171;
+  width: 310px;
+  height: 174px;
+  border-radius: 24px;
+}
+#logodiscription{
+  display: flex;
+}
+  /* list-style: none; */
+#cardtitle{
+  /* margin-left: 10px; */
+  margin-top: 5px;
+}
+#logodiscription{
+  margin-top: 10px;
+}
+#logodiscriptiontext{
+  margin-left: 10px;
+}
+#cardfooter{
+  display: flex;
+}
+#channelname{
+  width: 100px;
+  background-color: #717171;
+  height: 20px;
+  border-radius: 24px;
+  margin-top: 10px;
+  margin-left: 53px;
+}
+#lastthings{
+  width: 50px;
+  background-color: #717171;
+  border-radius: 24px;
+  margin-left: 53px;
+  margin-top: 10px;
+  height: 20px;
+}
+#lastcardcontent{
+  width: 50px;
+  background-color: #717171;
+  border-radius: 24px;
+  margin-left: 53px;
+  margin-top: 10px;
+  height: 20px;
+}
+#cardadjust{
+  display: flex;
+  flex-wrap: 1;
+  margin-top: 20px;
+  overflow: hidden;
+}
